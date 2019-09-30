@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>platform-swagger</module>
+        <module>platform-redis</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -14,7 +15,7 @@
     </parent>
     <groupId>com.unknown.platform</groupId>
     <artifactId>platform</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>platform</name>
     <description>Demo project for Spring Boot</description>
 
@@ -172,120 +173,66 @@
                 <artifactId>jsoup</artifactId>
                 <version>${jsoup.version}</version>
             </dependency>
-            <!--<dependency>
-                <groupId>io.netty</groupId>
-                <artifactId>netty-tcnative</artifactId>
-                <version>1.1.33.Fork23</version>
-                <classifier>windows-x86_64</classifier>
-            </dependency>
-            <dependency>
-                <groupId>io.netty</groupId>
-                <artifactId>netty-all</artifactId>
-                <version>4.1.6.Final</version>
-                <scope>compile</scope>
-            </dependency>-->
-            <!--<dependency>
-                <groupId>com.google.code.gson</groupId>
-                <artifactId>gson</artifactId>
-                <version>2.8.1</version>
-            </dependency>-->
-
             <!--platform model-->
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-core</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-data</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-jms</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-access</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-common</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-support</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-framework</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-swagger</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-sms</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-mongo</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-redis</artifactId>
-                <version>${platform.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-extend</artifactId>
-                <version>${platform.version}</version>
-            </dependency>
-            <!--lottery-->
-            <dependency>
-                <groupId>com.unknown.lottery</groupId>
-                <artifactId>lottery-core</artifactId>
-                <version>${lottery.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.lottery</groupId>
-                <artifactId>lottery-ext</artifactId>
-                <version>${lottery.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.lottery</groupId>
-                <artifactId>lottery-support</artifactId>
-                <version>${lottery.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.lottery</groupId>
-                <artifactId>adapter-mobile</artifactId>
-                <version>${lottery.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.lottery</groupId>
-                <artifactId>adapter-admin</artifactId>
-                <version>${lottery.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.lottery</groupId>
-                <artifactId>lottery-trade</artifactId>
-                <version>${lottery.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.lottery</groupId>
-                <artifactId>lottery-common</artifactId>
-                <version>${lottery.version}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
