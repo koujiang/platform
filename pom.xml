@@ -6,6 +6,7 @@
     <modules>
         <module>platform-swagger</module>
         <module>platform-redis</module>
+        <module>platform-mongo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -176,62 +177,12 @@
             <!--platform model-->
             <dependency>
                 <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-data</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-jms</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-access</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-common</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-support</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-framework</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-swagger</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-sms</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-mongo</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-redis</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.unknown.platform</groupId>
-                <artifactId>platform-extend</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
@@ -240,8 +191,14 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--<groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>-->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>
