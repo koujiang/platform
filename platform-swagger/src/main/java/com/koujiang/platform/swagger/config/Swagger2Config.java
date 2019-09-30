@@ -1,4 +1,4 @@
-package com.unknown.platform.swagger.config;
+package com.koujiang.platform.swagger.config;
 
 import com.google.common.base.Function;
 import com.google.common.base.Optional;

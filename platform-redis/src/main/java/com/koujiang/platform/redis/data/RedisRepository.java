@@ -1,4 +1,4 @@
-package com.unknown.platform.redis.data;
+package com.koujiang.platform.redis.data;
 
 import org.springframework.data.redis.core.RedisTemplate;
 

@@ -105,7 +105,6 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>swagger-bootstrap-ui</artifactId>
@@ -162,12 +161,6 @@
                 <artifactId>guava</artifactId>
                 <version>27.0.1-jre</version>
             </dependency>
-            <!--pinyin4j-->
-            <dependency>
-                <groupId>com.belerweb</groupId>
-                <artifactId>pinyin4j</artifactId>
-                <version>2.5.0</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.jsoup</groupId>
@@ -176,13 +169,18 @@
             </dependency>
             <!--platform model-->
             <dependency>
-                <groupId>com.unknown.platform</groupId>
+                <groupId>com.koujiang.platform</groupId>
                 <artifactId>platform-swagger</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.unknown.platform</groupId>
+                <groupId>com.koujiang.platform</groupId>
                 <artifactId>platform-redis</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.koujiang.platform</groupId>
+                <artifactId>platform-mongo</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

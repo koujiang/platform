@@ -1,4 +1,4 @@
-package com.unknown.platform.mongo.data;
+package com.koujiang.platform.mongo.data;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
