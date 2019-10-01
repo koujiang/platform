@@ -1,4 +1,4 @@
-package com.unknown.jms.service;
+package com.unknown.jms;
 
 import org.apache.activemq.ScheduledMessage;
 import org.springframework.jms.core.MessagePostProcessor;

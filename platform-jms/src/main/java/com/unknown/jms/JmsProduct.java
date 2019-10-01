@@ -1,9 +1,10 @@
-package com.unknown.jms.service;
+package com.unknown.jms;
 
 import org.apache.activemq.ScheduledMessage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.jms.core.JmsTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.jms.*;
@@ -19,13 +20,13 @@ import javax.jms.*;
  * <br>@Modified	:(Please add modification date)
  * <br>@varsion		:v1.0.0
  */
-@Service
+@Component
 public class JmsProduct {
 
     @Autowired
     private JmsMessagingTemplate jmsMessagingTemplate;
-    @Autowired
-    private JmsTemplate jmsTemplate;
+    /*@Autowired
+    private JmsTemplate jmsTemplate;*/
 
     public void sendMessage(Destination destination, Object message) {
         jmsMessagingTemplate.convertAndSend(destination,message);
