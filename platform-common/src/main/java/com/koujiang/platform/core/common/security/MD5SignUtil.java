@@ -1,6 +1,7 @@
 package com.koujiang.platform.core.common.security;
 
-import org.springframework.util.DigestUtils;
+import com.koujiang.platform.core.codec.digest.DigestUtils;
+import com.koujiang.platform.core.util.VNETookit;
 
 import java.util.Map;
 import java.util.Set;
@@ -49,6 +50,6 @@ public class MD5SignUtil {
             }
         }
         sb.append(SIGN_KEY).append("=").append(privateKey);
-        return DigestUtils.md5DigestAsHex(sb.toString().getBytes()).toUpperCase();
+        return DigestUtils.md5Hex(sb.toString().getBytes()).toUpperCase();
     }
 }
