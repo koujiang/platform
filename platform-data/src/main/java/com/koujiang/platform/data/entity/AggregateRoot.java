@@ -1,6 +1,6 @@
 package com.koujiang.platform.data.entity;
 
-import com.unknown.platform.event.DomainEvent;
+import com.koujiang.platform.data.event.DomainEvent;
 import org.springframework.data.annotation.Transient;
 import org.springframework.data.domain.AfterDomainEventPublication;
 import org.springframework.data.domain.DomainEvents;

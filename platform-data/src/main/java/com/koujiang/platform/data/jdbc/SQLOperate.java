@@ -1,6 +1,6 @@
 package com.koujiang.platform.data.jdbc;
 
-import com.unknown.platform.util.VNETookit;
+import com.koujiang.platform.core.util.VNETookit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Repository;
