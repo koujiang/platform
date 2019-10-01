@@ -62,7 +62,7 @@ public class CustomAppService {
         List<Map<String, Object>> mapList = sqlOperate.querySQLForMap(pageSQL.toString(), pageParams.toArray());
         //查询统计数据
         String sub = sql.substring(sql.indexOf("select")+6, sql.lastIndexOf("from"));
-        //TODO: String countSQL = sql.replace(sub, " count("+sub.split(",")[0].trim()+") ");
+        //String countSQL = sql.replace(sub, " count("+sub.split(",")[0].trim()+") ");
         String countSQL = sql.replace(sub, " count(*) ");
         int count = 0;
         if (params != null && !params.isEmpty()) {

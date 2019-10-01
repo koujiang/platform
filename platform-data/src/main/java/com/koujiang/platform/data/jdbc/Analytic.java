@@ -1,6 +1,6 @@
 package com.koujiang.platform.data.jdbc;
 
-import com.unknown.platform.util.VNETookit;
+import com.koujiang.platform.core.util.VNETookit;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;

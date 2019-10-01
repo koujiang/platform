@@ -68,7 +68,6 @@ public abstract class BaseEntity extends Entity {
                 this.modifierId = this.creatorId;
             }
         } catch (Exception e) {
-            // TODO: handle exception
             // 定时任务处理方式：
         }
     }
@@ -83,7 +82,6 @@ public abstract class BaseEntity extends Entity {
                 this.modifierId = user.getId();
             }
         } catch (Exception e) {
-            // TODO: handle exception
             // 定时任务处理方式：
         }
     }
