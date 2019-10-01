@@ -17,8 +17,8 @@
 
 package com.koujiang.platform.core.codec.language.bm;
 
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.codec.StringEncoder;
+import com.koujiang.platform.core.codec.EncoderException;
+import com.koujiang.platform.core.codec.StringEncoder;
 
 /**
  * Encodes strings into their Beider-Morse phonetic encoding.

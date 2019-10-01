@@ -19,10 +19,10 @@ package com.koujiang.platform.core.codec.net;
 
 import java.nio.ByteBuffer;
 import java.util.BitSet;
-import org.apache.commons.codec.BinaryDecoder;
-import org.apache.commons.codec.BinaryEncoder;
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.EncoderException;
+import com.koujiang.platform.core.codec.BinaryDecoder;
+import com.koujiang.platform.core.codec.BinaryEncoder;
+import com.koujiang.platform.core.codec.DecoderException;
+import com.koujiang.platform.core.codec.EncoderException;
 
 /**
  * Implements the Percent-Encoding scheme, as described in HTTP 1.1 specification. For extensibility, an array of

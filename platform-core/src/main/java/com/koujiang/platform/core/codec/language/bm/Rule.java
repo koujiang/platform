@@ -31,8 +31,8 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.commons.codec.Resources;
-import org.apache.commons.codec.language.bm.Languages.LanguageSet;
+import com.koujiang.platform.core.codec.Resources;
+import com.koujiang.platform.core.codec.language.bm.Languages.LanguageSet;
 
 /**
  * A phoneme rule.

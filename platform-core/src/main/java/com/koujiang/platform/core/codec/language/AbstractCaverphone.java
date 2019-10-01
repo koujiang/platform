@@ -17,8 +17,8 @@
 
 package com.koujiang.platform.core.codec.language;
 
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.codec.StringEncoder;
+import com.koujiang.platform.core.codec.EncoderException;
+import com.koujiang.platform.core.codec.StringEncoder;
 
 /**
  * Encodes a string into a Caverphone value.

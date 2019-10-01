@@ -24,14 +24,14 @@ import java.nio.charset.IllegalCharsetNameException;
 import java.nio.charset.UnsupportedCharsetException;
 import java.util.BitSet;
 
-import org.apache.commons.codec.BinaryDecoder;
-import org.apache.commons.codec.BinaryEncoder;
-import org.apache.commons.codec.Charsets;
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.codec.StringDecoder;
-import org.apache.commons.codec.StringEncoder;
-import org.apache.commons.codec.binary.StringUtils;
+import com.koujiang.platform.core.codec.BinaryDecoder;
+import com.koujiang.platform.core.codec.BinaryEncoder;
+import com.koujiang.platform.core.codec.Charsets;
+import com.koujiang.platform.core.codec.DecoderException;
+import com.koujiang.platform.core.codec.EncoderException;
+import com.koujiang.platform.core.codec.StringDecoder;
+import com.koujiang.platform.core.codec.StringEncoder;
+import com.koujiang.platform.core.codec.binary.StringUtils;
 
 /**
  * Codec for the Quoted-Printable section of <a href="http://www.ietf.org/rfc/rfc1521.txt">RFC 1521</a>.

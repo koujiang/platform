@@ -25,7 +25,7 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 import java.util.Set;
 
-import org.apache.commons.codec.Resources;
+import com.koujiang.platform.core.codec.Resources;
 
 /**
  * Language codes.

@@ -30,8 +30,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import org.apache.commons.codec.language.bm.Languages.LanguageSet;
-import org.apache.commons.codec.language.bm.Rule.Phoneme;
+import com.koujiang.platform.core.codec.language.bm.Languages.LanguageSet;
+import com.koujiang.platform.core.codec.language.bm.Rule.Phoneme;
 
 /**
  * Converts words into potential phonetic representations.

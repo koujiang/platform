@@ -20,12 +20,12 @@ package com.koujiang.platform.core.codec.net;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 
-import org.apache.commons.codec.Charsets;
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.codec.StringDecoder;
-import org.apache.commons.codec.StringEncoder;
-import org.apache.commons.codec.binary.Base64;
+import com.koujiang.platform.core.codec.Charsets;
+import com.koujiang.platform.core.codec.DecoderException;
+import com.koujiang.platform.core.codec.EncoderException;
+import com.koujiang.platform.core.codec.StringDecoder;
+import com.koujiang.platform.core.codec.StringEncoder;
+import com.koujiang.platform.core.codec.binary.Base64;
 
 /**
  * Identical to the Base64 encoding defined by <a href="http://www.ietf.org/rfc/rfc1521.txt">RFC 1521</a>

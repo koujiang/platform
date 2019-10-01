@@ -19,8 +19,8 @@ package com.koujiang.platform.core.codec.language;
 
 import java.util.regex.Pattern;
 
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.codec.StringEncoder;
+import com.koujiang.platform.core.codec.EncoderException;
+import com.koujiang.platform.core.codec.StringEncoder;
 
 /**
  * Encodes a string into a NYSIIS value. NYSIIS is an encoding used to relate similar names, but can also be used as a

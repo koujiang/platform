@@ -21,8 +21,8 @@ import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 
-import org.apache.commons.codec.CharEncoding;
-import org.apache.commons.codec.Charsets;
+import com.koujiang.platform.core.codec.CharEncoding;
+import com.koujiang.platform.core.codec.Charsets;
 
 /**
  * Converts String to and from bytes using the encodings required by the Java specification. These encodings are

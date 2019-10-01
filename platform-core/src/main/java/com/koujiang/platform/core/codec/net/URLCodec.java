@@ -21,14 +21,14 @@ import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.BitSet;
 
-import org.apache.commons.codec.BinaryDecoder;
-import org.apache.commons.codec.BinaryEncoder;
-import org.apache.commons.codec.CharEncoding;
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.codec.StringDecoder;
-import org.apache.commons.codec.StringEncoder;
-import org.apache.commons.codec.binary.StringUtils;
+import com.koujiang.platform.core.codec.BinaryDecoder;
+import com.koujiang.platform.core.codec.BinaryEncoder;
+import com.koujiang.platform.core.codec.CharEncoding;
+import com.koujiang.platform.core.codec.DecoderException;
+import com.koujiang.platform.core.codec.EncoderException;
+import com.koujiang.platform.core.codec.StringDecoder;
+import com.koujiang.platform.core.codec.StringEncoder;
+import com.koujiang.platform.core.codec.binary.StringUtils;
 
 /**
  * Implements the 'www-form-urlencoded' encoding scheme, also misleadingly known as URL encoding.

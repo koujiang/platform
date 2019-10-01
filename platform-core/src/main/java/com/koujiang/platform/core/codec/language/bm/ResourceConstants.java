@@ -17,7 +17,7 @@
 
 package com.koujiang.platform.core.codec.language.bm;
 
-import org.apache.commons.codec.CharEncoding;
+import com.koujiang.platform.core.codec.CharEncoding;
 
 /**
  * Constants used to process resource files.

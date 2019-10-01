@@ -19,10 +19,10 @@ package com.koujiang.platform.core.codec.binary;
 
 import java.util.Arrays;
 
-import org.apache.commons.codec.BinaryDecoder;
-import org.apache.commons.codec.BinaryEncoder;
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.EncoderException;
+import com.koujiang.platform.core.codec.BinaryDecoder;
+import com.koujiang.platform.core.codec.BinaryEncoder;
+import com.koujiang.platform.core.codec.DecoderException;
+import com.koujiang.platform.core.codec.EncoderException;
 
 /**
  * Abstract superclass for Base-N encoders and decoders.

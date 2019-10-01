@@ -17,13 +17,13 @@
 
 package com.koujiang.platform.core.codec.binary;
 
-import static org.apache.commons.codec.binary.BaseNCodec.EOF;
+import static com.koujiang.platform.core.codec.binary.BaseNCodec.EOF;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-import org.apache.commons.codec.binary.BaseNCodec.Context;
+import com.koujiang.platform.core.codec.binary.BaseNCodec.Context;
 
 /**
  * Abstract superclass for Base-N output streams.

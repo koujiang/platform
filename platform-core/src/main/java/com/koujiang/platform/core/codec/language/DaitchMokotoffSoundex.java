@@ -27,10 +27,10 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
-import org.apache.commons.codec.CharEncoding;
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.codec.Resources;
-import org.apache.commons.codec.StringEncoder;
+import com.koujiang.platform.core.codec.CharEncoding;
+import com.koujiang.platform.core.codec.EncoderException;
+import com.koujiang.platform.core.codec.Resources;
+import com.koujiang.platform.core.codec.StringEncoder;
 
 /**
  * Encodes a string into a Daitch-Mokotoff Soundex value.

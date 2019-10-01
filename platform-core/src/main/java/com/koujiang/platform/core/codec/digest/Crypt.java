@@ -19,7 +19,7 @@ package com.koujiang.platform.core.codec.digest;
 import java.security.SecureRandom;
 import java.util.concurrent.ThreadLocalRandom;
 
-import org.apache.commons.codec.Charsets;
+import com.koujiang.platform.core.codec.Charsets;
 
 /**
  * GNU libc crypt(3) compatible hash method.

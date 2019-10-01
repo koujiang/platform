@@ -20,9 +20,9 @@ package com.koujiang.platform.core.codec.net;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 
-import org.apache.commons.codec.DecoderException;
-import org.apache.commons.codec.EncoderException;
-import org.apache.commons.codec.binary.StringUtils;
+import com.koujiang.platform.core.codec.DecoderException;
+import com.koujiang.platform.core.codec.EncoderException;
+import com.koujiang.platform.core.codec.binary.StringUtils;
 
 /**
  * Implements methods common to all codecs defined in RFC 1522.

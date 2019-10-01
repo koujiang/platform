@@ -17,7 +17,7 @@
 
 package com.koujiang.platform.core.codec.net;
 
-import org.apache.commons.codec.DecoderException;
+import com.koujiang.platform.core.codec.DecoderException;
 
 /**
  * Utility methods for this package.
