@@ -7,6 +7,8 @@
         <module>platform-swagger</module>
         <module>platform-redis</module>
         <module>platform-mongo</module>
+        <module>platform-common</module>
+        <module>platform-data</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -1,11 +1,11 @@
 # platform
 
 #### 介绍
-platform
+- platform 
+- email:koujiang901123@sina.com
 
 #### 软件架构
 spring boot 2.1.8
-
 
 #### 安装教程
 
