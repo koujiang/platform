@@ -9,6 +9,7 @@
         <module>platform-mongo</module>
         <module>platform-common</module>
         <module>platform-data</module>
+        <module>platform-core</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -29,7 +30,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <swagger.version>2.9.2</swagger.version>
-        <lombok.version>1.18.4</lombok.version>
         <shiro.version>1.4.0</shiro.version>
         <platform.version>1.0</platform.version>
         <lottery.version>1.0</lottery.version>
@@ -113,12 +113,6 @@
                 <version>1.8.9</version>
             </dependency>
 
-            <!--lombok-->
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
-            </dependency>
             <!--shiro-->
             <dependency>
                 <groupId>org.apache.shiro</groupId>
@@ -169,20 +163,35 @@
                 <artifactId>jsoup</artifactId>
                 <version>${jsoup.version}</version>
             </dependency>
-            <!--platform model-->
+            <!-- **************************************************platform model**************************************************-->
+            <!--platform swagger-->
             <dependency>
                 <groupId>com.koujiang.platform</groupId>
                 <artifactId>platform-swagger</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!--platform redis-->
             <dependency>
                 <groupId>com.koujiang.platform</groupId>
                 <artifactId>platform-redis</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!--platform mongo-->
             <dependency>
                 <groupId>com.koujiang.platform</groupId>
                 <artifactId>platform-mongo</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!--platform core-->
+            <dependency>
+                <groupId>com.koujiang.platform</groupId>
+                <artifactId>platform-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!--platform common-->
+            <dependency>
+                <groupId>com.koujiang.platform</groupId>
+                <artifactId>platform-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
