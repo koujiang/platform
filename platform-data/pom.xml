@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>platform</artifactId>
-        <groupId>com.koujiang.platform</groupId>
+        <groupId>com.unknown.platform</groupId>
         <version>1.0.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -25,7 +25,7 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.koujiang.platform</groupId>
+            <groupId>com.unknown.platform</groupId>
             <artifactId>platform-core</artifactId>
         </dependency>
         <dependency>

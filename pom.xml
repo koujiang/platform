@@ -17,7 +17,7 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.koujiang.platform</groupId>
+    <groupId>com.unknown.platform</groupId>
     <artifactId>platform</artifactId>
     <version>1.0.0-RELEASE</version>
     <name>platform</name>
@@ -166,37 +166,37 @@
             <!-- **************************************************platform model**************************************************-->
             <!--platform swagger-->
             <dependency>
-                <groupId>com.koujiang.platform</groupId>
+                <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-swagger</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!--platform redis-->
             <dependency>
-                <groupId>com.koujiang.platform</groupId>
+                <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-redis</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!--platform mongo-->
             <dependency>
-                <groupId>com.koujiang.platform</groupId>
+                <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-mongo</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!--platform core-->
             <dependency>
-                <groupId>com.koujiang.platform</groupId>
+                <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!--platform data-->
             <dependency>
-                <groupId>com.koujiang.platform</groupId>
+                <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-data</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!--platform common-->
             <dependency>
-                <groupId>com.koujiang.platform</groupId>
+                <groupId>com.unknown.platform</groupId>
                 <artifactId>platform-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
