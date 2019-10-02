@@ -30,7 +30,6 @@ public class VNETookit {
 	 */
 	public static final boolean isNull(String arg) {
 		//(str == null || "".equals(str))
-
 		return null == arg || arg.trim().length() == 0;
 	}
 	

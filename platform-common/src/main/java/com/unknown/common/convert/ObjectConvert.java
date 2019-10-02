@@ -1,7 +1,10 @@
 package com.unknown.common.convert;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.unknown.core.exception.ModelException;
 
+import java.io.IOException;
 import java.util.Map;
 
 /**
@@ -15,13 +18,31 @@ import java.util.Map;
  */
 public class ObjectConvert {
 
-    public static <T extends Object> Map<String, Object> convert(T o) {
+    public static <T extends Object> Map<String, Object> toMap(T o) {
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.convertValue(o, Map.class);
     }
 
-    public static <T extends Object> T convert(Map<String, Object> map, Class<T> clas) {
+    public static <T extends Object> String toString(T o) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            return objectMapper.writeValueAsString(o);
+        } catch (JsonProcessingException e) {
+            throw new ModelException(e.getMessage());
+        }
+    }
+
+    public static <T extends Object> T toObject(Map<String, Object> map, Class<T> clas) {
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.convertValue(map, clas);
+    }
+
+    public static <T extends Object> T toObject(String str, Class<T> clas) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            return objectMapper.readValue(str, clas);
+        } catch (IOException e) {
+            throw new ModelException(e.getMessage());
+        }
     }
 }
