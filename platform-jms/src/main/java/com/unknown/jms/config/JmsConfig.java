@@ -132,8 +132,6 @@ public class JmsConfig {
         return factory;
     }
 
-
-
     //配置链接方式(减少springboot重复创建session的问题 )
     @Bean
     public JmsTemplate jmsTemplate(ConnectionFactory factory) {

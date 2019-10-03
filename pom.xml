@@ -4,18 +4,19 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
+        <module>platform-common</module>
+        <module>platform-core</module>
+        <module>platform-data</module>
+        <module>platform-jms</module>
+        <module>platform-mongo</module>
         <module>platform-swagger</module>
         <module>platform-redis</module>
-        <module>platform-mongo</module>
-        <module>platform-common</module>
-        <module>platform-data</module>
-        <module>platform-core</module>
-        <module>platform-jms</module>
+        <module>platform-support</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.8.RELEASE</version>
+        <version>2.1.9.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.unknown.platform</groupId>

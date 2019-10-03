@@ -1,6 +1,7 @@
 package com.unknown.common.convert;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.unknown.core.exception.ModelException;
 
@@ -45,4 +46,14 @@ public class ObjectConvert {
             throw new ModelException(e.getMessage());
         }
     }
+
+    /*public static <T extends Object> T toCollection(String str, Class<T> collectionClass, Class<?>... elementClasses) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            JavaType javaType = objectMapper.getTypeFactory().constructParametricType(collectionClass, elementClasses);
+            return objectMapper.readValue(str, javaType);
+        } catch (IOException e) {
+            throw new ModelException(e.getMessage());
+        }
+    }*/
 }
