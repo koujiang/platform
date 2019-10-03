@@ -12,6 +12,7 @@
         <module>platform-swagger</module>
         <module>platform-redis</module>
         <module>platform-support</module>
+        <module>start</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
