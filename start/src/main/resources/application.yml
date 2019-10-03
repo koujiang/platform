@@ -1,4 +1,38 @@
+network:
+  jmsmq: localhost
+
+#开发环境 各自的开发环境
+server:
+  port: 8093
+  servlet:
+    context-path: /start
+
+# 测试环境
+projectName: platform
+
 spring:
-  profiles:
-  # dev test prod 自己选择
-    active: dev
+  activemq:
+    # failover:(tcp://localhost:61616,tcp://localhost:61617)
+    broker-url: tcp://${network.jmsmq}:61616
+    # true 表示使用内置的MQ(需要注释broker-url)，false则连接服务器
+    in-memory: false
+    pool:
+      #true表示使用连接池;false时,每发送一条数据创建一个连接
+      enabled: true
+      #连接池最大连接数
+      max-connections: 10
+      #空闲的连接过期时间，默认为30秒
+      idle-timeout: 30000
+    packages:
+      #信任所有的包
+      trust-all: true
+    user: admin
+    password: admin
+
+logging:
+  level:
+    root: info
+    org.apache.activemq.*: error
+    org.mongodb.driver.*: error
+    com.unknown.*: debug
+  file: ./logs/core.log
