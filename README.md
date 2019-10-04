@@ -5,7 +5,7 @@
 - email:koujiang901123@sina.com
 
 #### 软件架构
-spring boot 2.1.8
+spring boot 2.1.9
 
 #### 安装教程
 
