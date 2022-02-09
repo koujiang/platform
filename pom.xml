@@ -32,7 +32,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <swagger.version>2.9.2</swagger.version>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.7.1</shiro.version>
         <platform.version>1.0</platform.version>
         <lottery.version>1.0</lottery.version>
         <junit.version>4.12</junit.version>
